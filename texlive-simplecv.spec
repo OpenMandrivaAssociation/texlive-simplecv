@@ -50,6 +50,7 @@ avoid the existing cv package).
 #- source
 %doc %{_texmfdistdir}/source/latex/simplecv/simplecv.dtx
 %doc %{_texmfdistdir}/source/latex/simplecv/simplecv.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +61,5 @@ avoid the existing cv package).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
