@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/simplecv
-# catalog-date 2008-08-23 15:48:35 +0200
-# catalog-license lppl
-# catalog-version 1.6
 Name:		texlive-simplecv
-Version:	1.6
-Release:	10
+Version:	1.6a
+Release:	1
 Summary:	A simple class for writing curricula vitae
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/simplecv
@@ -33,13 +27,10 @@ avoid the existing cv package).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/simplecv/simplecv.cls
-%doc %{_texmfdistdir}/doc/latex/simplecv/README
-%doc %{_texmfdistdir}/doc/latex/simplecv/testcv.pdf
-%doc %{_texmfdistdir}/doc/latex/simplecv/testcv.tex
+%{_texmfdistdir}/tex/latex/simplecv
+%doc %{_texmfdistdir}/doc/latex/simplecv
 #- source
-%doc %{_texmfdistdir}/source/latex/simplecv/simplecv.dtx
-%doc %{_texmfdistdir}/source/latex/simplecv/simplecv.ins
+%doc %{_texmfdistdir}/source/latex/simplecv
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,17 +41,3 @@ avoid the existing cv package).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6-2
-+ Revision: 756027
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.6-1
-+ Revision: 719537
-- texlive-simplecv
-- texlive-simplecv
-- texlive-simplecv
-- texlive-simplecv
-
