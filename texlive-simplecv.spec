@@ -1,6 +1,6 @@
 Name:		texlive-simplecv
 Version:	1.6a
-Release:	1
+Release:	2
 Summary:	A simple class for writing curricula vitae
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/simplecv
