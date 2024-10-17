@@ -3,7 +3,7 @@ Version:	35537
 Release:	2
 Summary:	A simple class for writing curricula vitae
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/simplecv
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/simplecv
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simplecv.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simplecv.doc.r%{version}.tar.xz
